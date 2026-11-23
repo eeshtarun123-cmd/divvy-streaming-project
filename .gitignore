@@ -1,0 +1,13 @@
+/.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.Rhistory
+.env
+.env.*
+/data/
+/logs/
+/guide.docx
+/Divvy Dashboard Streamlit Handoff.docx
+/table_columns.csv
+/table_list.csv
