@@ -1,0 +1,273 @@
+{
+  "checked_at_utc": "2026-11-23T14:39:18.085027+00:00",
+  "passed_checks": 44,
+  "raw_row_growth": 0.14663224620231352,
+  "eligible_trip_growth": 0.148345662640065,
+  "exclusion_rate_2026": 0.026125935915309095,
+  "checks": [
+    {
+      "check": "2025 comparable trips from eligible staging rows",
+      "status": "PASS",
+      "actual": 4916470,
+      "expected": 4916470
+    },
+    {
+      "check": "2025 comparable month count",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "2026 comparable trips from eligible staging rows",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "2026 comparable month count",
+      "status": "PASS",
+      "actual": 10,
+      "expected": 10
+    },
+    {
+      "check": "unique mart ride IDs",
+      "status": "PASS",
+      "actual": 11220262,
+      "expected": 11220262
+    },
+    {
+      "check": "non-positive mart trip durations",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "rhythm total",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "duration distribution total",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "independent station pickup events",
+      "status": "PASS",
+      "actual": 4523023,
+      "expected": 4523023
+    },
+    {
+      "check": "independent station return events",
+      "status": "PASS",
+      "actual": 4484893,
+      "expected": 4484893
+    },
+    {
+      "check": "signed net flow",
+      "status": "PASS",
+      "actual": -38130,
+      "expected": -38130
+    },
+    {
+      "check": "station catalog retained",
+      "status": "PASS",
+      "actual": 2103,
+      "expected": 2103
+    },
+    {
+      "check": "pickup events not duplicated across activity rows",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "return events not duplicated across activity rows",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "Monday 08:00 rate uses all calendar Mondays",
+      "status": "PASS",
+      "actual": 1144.25581395,
+      "expected": 1144.25581395
+    },
+    {
+      "check": "day-normalized hourly rates reconcile",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "Pickup coverage categories cover every eligible trip",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "Pickup attribution uses departure cohort",
+      "status": "PASS",
+      "actual": 4523023,
+      "expected": 4523023
+    },
+    {
+      "check": "Return coverage categories cover every eligible trip",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "Return attribution uses departure cohort",
+      "status": "PASS",
+      "actual": 4485015,
+      "expected": 4485015
+    },
+    {
+      "check": "2025 cleaning partition",
+      "status": "PASS",
+      "actual": 5055907,
+      "expected": 5055907
+    },
+    {
+      "check": "2025 retained count",
+      "status": "PASS",
+      "actual": 4916470,
+      "expected": 4916470
+    },
+    {
+      "check": "2025 retention shares sum to one",
+      "status": "PASS",
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "2026 cleaning partition",
+      "status": "PASS",
+      "actual": 5797266,
+      "expected": 5797266
+    },
+    {
+      "check": "2026 retained count",
+      "status": "PASS",
+      "actual": 5645807,
+      "expected": 5645807
+    },
+    {
+      "check": "2026 retention shares sum to one",
+      "status": "PASS",
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "one operations row per location",
+      "status": "PASS",
+      "actual": 2080,
+      "expected": 2080
+    },
+    {
+      "check": "operations count matches latest snapshot",
+      "status": "PASS",
+      "actual": 2080,
+      "expected": 2080
+    },
+    {
+      "check": "no racks in pressure or shortlist",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "no stale or inactive sites in shortlist",
+      "status": "PASS",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "check": "triage scores within 0\u2013100",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "all priority-list sites have observed pressure",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "package CRC",
+      "status": "PASS",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "check": "six dashboard pages",
+      "status": "PASS",
+      "actual": 6,
+      "expected": 6
+    },
+    {
+      "check": "37 editable native worksheets",
+      "status": "PASS",
+      "actual": 37,
+      "expected": 37
+    },
+    {
+      "check": "worksheet tabs hidden from viewer",
+      "status": "PASS",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "packaged source matches local extract: ridership.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: rhythm.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: duration.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: stations.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: operations.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: coverage.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: coverage_status.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    },
+    {
+      "check": "packaged source matches local extract: quality.csv",
+      "status": "PASS",
+      "actual": "matching bytes",
+      "expected": "matching bytes"
+    }
+  ]
+}
